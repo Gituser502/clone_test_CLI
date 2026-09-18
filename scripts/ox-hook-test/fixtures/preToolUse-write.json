@@ -1,0 +1,11 @@
+{
+  "hook_event_name": "preToolUse",
+  "conversation_id": "ox-hook-test-session",
+  "tool_name": "Write",
+  "tool_input": {
+    "path": "scripts/ox-hook-test/vulnerable-snippet.ts",
+    "contents": "export function login (email: string, password: string) {\n  const q = `SELECT * FROM Users WHERE email = '${email}' AND password = '${password}'`\n  return db.query(q)\n}\n"
+  },
+  "workspace_roots": ["/Users/vadimkolchinsky/GitHub/Free/juice-shop"],
+  "model": "default"
+}

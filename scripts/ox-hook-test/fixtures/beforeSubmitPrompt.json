@@ -1,0 +1,7 @@
+{
+  "hook_event_name": "beforeSubmitPrompt",
+  "conversation_id": "ox-hook-test-session",
+  "prompt": "OX_HOOK_TEST: add vulnerable login with SQL string concatenation",
+  "workspace_roots": ["/Users/vadimkolchinsky/GitHub/Free/juice-shop"],
+  "model": "default"
+}

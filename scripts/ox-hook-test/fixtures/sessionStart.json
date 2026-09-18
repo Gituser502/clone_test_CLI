@@ -1,0 +1,6 @@
+{
+  "hook_event_name": "sessionStart",
+  "conversation_id": "ox-hook-test-session",
+  "workspace_roots": ["/Users/vadimkolchinsky/GitHub/Free/juice-shop"],
+  "model": "default"
+}
